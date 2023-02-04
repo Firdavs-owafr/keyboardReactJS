@@ -1,0 +1,118 @@
+@media only screen and (max-width: 400px){
+    header{
+        width: 85%;
+        display: flex;
+        justify-content: space-between  ;
+        align-items: center;
+        margin: 0 auto 52px;
+        // background-color: pink;
+        .logo{
+            width: max-content;
+        }
+        .text-darkmode{
+            width: max-content;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            .dropdown{
+                width: max-content;
+                height: max-content;
+                background-color: transparent;
+                margin-bottom: -17px;
+                cursor: pointer;
+                user-select: none;
+                .dropdown-btn{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #2D2D2D;
+                    margin-bottom: 18px;
+                    .text-dr{
+                        margin-right: 20px;
+                    }
+                    .rotat{
+                        margin-bottom: 0px;
+                    }
+                }
+                .dropdown-items{
+                    width: 200px;
+                    display: none;
+                    padding: 24px 0 24px 24px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+                    border-radius: 16px;
+                    position: absolute;
+                    .items{
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: #2D2D2D;
+                        margin-bottom: 16px;
+                        cursor: pointer;
+                        &:nth-child(1){
+                            font-family: 'Inter';
+                        }
+                        &:nth-child(2){
+                            font-family: 'Lora';
+                        }
+                        &:nth-child(3){
+                            font-family: 'Inconsolata';
+                        }
+                        &:hover{
+                            color: #A445ED;
+                        }
+                        &:last-child{
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+                .active {
+                    display: block;
+                    img{
+                        transform: rotate(-10deg);
+                    }
+                }
+                
+            }
+            .oval-before-after{
+                width: 40px;
+                height: 20px;
+                background: #757575;
+                border-radius: 10px;
+                position: relative;
+                padding: 3px 0 3px 3px;
+                cursor: pointer;
+                transition: 0.3s;
+                background: #757575;
+                &:hover{
+                    background-color: #A445ED;
+                }
+                .ovall{
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 100%;
+                    background-color: white;
+                    position: absolute;
+                    z-index: 9;
+                }
+                .ovalClick {
+                    position: absolute; 
+                    margin-left: 18px;
+                    z-index: 9;
+                }
+            }
+            .moon{
+                &:hover{
+                    svg{
+                        path{
+                            stroke: #A445ED;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

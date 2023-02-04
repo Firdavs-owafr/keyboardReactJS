@@ -1,0 +1,37 @@
+@media only screen and (max-width: 400px){
+    footer{
+        .liniee{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .linked{
+            display: flex;
+            flex-wrap: wrap;
+            .link-address{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                text-decoration-line: underline;
+                color: #757575;
+                margin-right: 20px;
+                margin-bottom: 8px;
+            }
+            .df{
+                display: flex;   
+                align-items: center;
+                .link{
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 17px;
+                    text-decoration-line: underline;
+                    color: #2D2D2D;
+                    margin-right: 10px;
+                }
+                .wiki{
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+        }
+    }
+}

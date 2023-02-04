@@ -1,0 +1,26 @@
+footer{
+    .linked{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        .df{
+            display: flex;
+            .link-address{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                text-decoration-line: underline;
+                color: #757575;
+                margin-right: 20px;
+            }
+            .link{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                text-decoration-line: underline;
+                color: #2D2D2D;
+                margin-right: 10px;
+            }
+        }
+    }
+}

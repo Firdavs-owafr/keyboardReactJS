@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');// mono
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap'); // Lora
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); // Inter
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lora', serif; 
+    font-family: 'Inter', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: transparent;
+    background-color: #050505;    
+    .App{
+        width: 800px;
+        height: max-content;
+        padding: 58px 0px;
+       
+    }
+}
+
+.dark-mode{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    color: #fff;
+}
+
+@import '_mobileApp.scss'; 

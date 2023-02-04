@@ -1,0 +1,31 @@
+@media only screen and (max-width: 852px){
+    .search-panel{
+        width: 90%;
+        height: 64px;
+        padding: 20px 0 20px 20px;
+        background: #F4F4F4;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        // background-color: red;
+        margin: 0 auto 45px;
+        input{
+            border: 0;
+            outline: none;
+            width: 90%;
+            background-color: transparent;
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #2D2D2D;
+            // background-color: red;
+        }
+        button{
+            outline: none;
+            border: 0;
+            cursor: pointer;
+            background-color: transparent;
+        }
+    }
+}

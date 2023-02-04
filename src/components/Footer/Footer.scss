@@ -1,0 +1,36 @@
+footer{
+    .liniee{
+        width: 100%;
+        height: 1px;
+        background: #E9E9E9;
+        margin-bottom: 20px;
+    }
+    .linked{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .link-address{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-decoration-line: underline;
+            color: #757575;
+            margin-right: 20px;
+        }
+        .df{
+            width: max-content;
+            display: flex;
+            align-items: center;
+            .link{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                text-decoration-line: underline;
+                color: #2D2D2D;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+@import '_tabletFooter.scss';
+@import '_mobileFooter.scss';
